@@ -15,18 +15,18 @@
  */
 package vietj.intellij.asciidoc.editor;
 
-import com.intellij.openapi.fileEditor.FileDocumentManager;
 import com.intellij.openapi.fileEditor.FileEditor;
 import com.intellij.openapi.fileEditor.FileEditorPolicy;
 import com.intellij.openapi.fileEditor.FileEditorProvider;
 import com.intellij.openapi.fileEditor.FileEditorState;
+import com.intellij.openapi.project.DumbAware;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.vfs.VirtualFile;
 import org.jdom.Element;
 import org.jetbrains.annotations.NotNull;
 
 /** @author Julien Viet */
-public class AsciidocPreviewEditorProvider implements FileEditorProvider {
+public class MyEditorProvider implements FileEditorProvider, DumbAware {
 
   /** The id of the editors provided by this {@link FileEditorProvider}. */
   public static final String EDITOR_TYPE_ID = "PreviewEditor";
@@ -54,7 +54,7 @@ public class AsciidocPreviewEditorProvider implements FileEditorProvider {
    */
   @NotNull
   public FileEditor createEditor(@NotNull Project project, @NotNull VirtualFile file) {
-    return new AsciidocPreviewEditor(project, FileDocumentManager.getInstance().getDocument(file));
+    return new MyEditor(project, file);
   }
 
   /**
@@ -69,7 +69,7 @@ public class AsciidocPreviewEditorProvider implements FileEditorProvider {
   /**
    * Deserialize state from the specified <code>sourceElemet</code>.
    * <p/>
-   * Does not do anything as {@link AsciidocPreviewEditor} is stateless.
+   * Does not do anything as {@link MyEditor} is stateless.
    *
    * @param sourceElement the source element.
    * @param project       the project.
@@ -86,7 +86,7 @@ public class AsciidocPreviewEditorProvider implements FileEditorProvider {
   /**
    * Serialize state into the specified <code>targetElement</code>
    * <p/>
-   * Does not do anything as {@link AsciidocPreviewEditor} is stateless.
+   * Does not do anything as {@link MyEditor} is stateless.
    *
    * @param state         the state to serialize.
    * @param project       the project.

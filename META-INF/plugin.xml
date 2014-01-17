@@ -43,6 +43,6 @@
 
   <extensions defaultExtensionNs="com.intellij">
     <fileTypeFactory implementation="vietj.intellij.asciidoc.file.FormFileTypeFactory"/>
-    <fileEditorProvider implementation="vietj.intellij.asciidoc.editor.AsciidocPreviewEditorProvider"/>
+    <fileEditorProvider implementation="vietj.intellij.asciidoc.editor.MyEditorProvider"/>
   </extensions>
 </idea-plugin>
