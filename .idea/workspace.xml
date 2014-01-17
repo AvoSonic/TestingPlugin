@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fce515a7-b880-433e-9ff6-be700fa790e3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.adoc" afterPath="$PROJECT_DIR$/README.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditorProvider.java" afterPath="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditorProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyGUI.java" afterPath="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyGUI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AsciidocPlugin.iws" />
@@ -77,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.adoc" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.adoc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.adoc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="61" selection-start="195" selection-end="195" vertical-scroll-proportion="0.116838485" vertical-offset="0" max-vertical-offset="582">
+            <state line="4" column="61" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
@@ -89,7 +90,7 @@
       <file leaf-file-name="plugin.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="45" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.0" vertical-offset="471" max-vertical-offset="901">
+            <state line="22" column="15" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
@@ -107,7 +108,7 @@
       <file leaf-file-name="MyEditorProvider.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditorProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="71" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
+            <state line="42" column="50" selection-start="1878" selection-end="1878" vertical-scroll-proportion="0.0" vertical-offset="319" max-vertical-offset="1819">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,7 +128,7 @@
       <file leaf-file-name="MyEditor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="3553">
+            <state line="41" column="0" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="3553">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,10 +136,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyGUI.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MyGUI.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+            <state line="12" column="53" selection-start="269" selection-end="269" vertical-scroll-proportion="0.40963855" vertical-offset="0" max-vertical-offset="498">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -197,12 +198,12 @@
         <option value="$PROJECT_DIR$/src/vietj/intellij/asciidoc/file/FormFileTypeFactory.java" />
         <option value="$PROJECT_DIR$/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/src/vietj/intellij/asciidoc/file/GuiFormFileType.java" />
-        <option value="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyGUI.java" />
         <option value="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/AsciidocPreviewEditorProvider.java" />
         <option value="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/AsciidocPreviewEditor.java" />
-        <option value="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditorProvider.java" />
         <option value="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditor.java" />
         <option value="$PROJECT_DIR$/README.adoc" />
+        <option value="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditorProvider.java" />
+        <option value="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyGUI.java" />
       </list>
     </option>
   </component>
@@ -592,12 +593,16 @@
       <created>1389928225470</created>
       <updated>1389928225470</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed readMe">
+      <created>1389929313986</created>
+      <updated>1389929313986</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="152" y="80" width="1471" height="934" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -617,7 +622,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25154638" sideWeight="0.67076164" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24033816" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34178743" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -640,7 +645,9 @@
     </option>
     <MESSAGE value="Initial commit&#10;" />
     <MESSAGE value="Third commit&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Third commit&#10;" />
+    <MESSAGE value="Changed readMe" />
+    <MESSAGE value="Changed readMe&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed readMe&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -867,44 +874,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/vietj/intellij/asciidoc/AsciidocAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="13" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="731">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="45" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="3553">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditorProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="71" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -924,8 +897,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.adoc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="61" selection-start="195" selection-end="195" vertical-scroll-proportion="0.116838485" vertical-offset="0" max-vertical-offset="582">
+        <state line="4" column="61" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="15" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditorProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="50" selection-start="1878" selection-end="1878" vertical-scroll-proportion="0.0" vertical-offset="319" max-vertical-offset="1819">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="3553">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="53" selection-start="269" selection-end="269" vertical-scroll-proportion="0.40963855" vertical-offset="0" max-vertical-offset="498">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

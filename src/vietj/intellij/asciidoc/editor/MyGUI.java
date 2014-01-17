@@ -9,7 +9,9 @@ import java.awt.*;
 public class MyGUI extends JPanel {
 
   public MyGUI(){
-    this.add(new JButton("click"));
+    setLayout(new BorderLayout());
+    this.add(new JButton("left"), BorderLayout.CENTER);
+    this.add(new JButton("right"), BorderLayout.EAST);
   }
 
 }
