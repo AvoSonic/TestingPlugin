@@ -21,10 +21,13 @@ import com.intellij.openapi.fileEditor.FileEditor;
 import com.intellij.openapi.fileEditor.FileEditorLocation;
 import com.intellij.openapi.fileEditor.FileEditorState;
 import com.intellij.openapi.fileEditor.FileEditorStateLevel;
+import com.intellij.openapi.module.Module;
+import com.intellij.openapi.module.ModuleUtil;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.Disposer;
 import com.intellij.openapi.util.UserDataHolderBase;
 import com.intellij.openapi.vfs.VirtualFile;
+import com.intellij.testFramework.LightVirtualFile;
 import com.intellij.ui.components.JBScrollPane;
 import org.jetbrains.annotations.NonNls;
 import org.jetbrains.annotations.NotNull;
@@ -36,18 +39,12 @@ import java.beans.PropertyChangeListener;
 /** @author Julien Viet */
 public class MyEditor extends UserDataHolderBase implements FileEditor {
 
-  /** The {@link java.awt.Component} used to render the HTML preview. */
-  protected final MyGUI jEditorPane = new MyGUI();
 
-//  /** Indicates whether the HTML preview is obsolete and should regenerated from the Asciidoc {@link #document}. */
-//  protected boolean previewIsObsolete = true;
-//
 //  /** The {@link Document} previewed in this editor. */
 //  protected final Document document;
 
-  /** The {@link JBScrollPane} allowing to browse {@link #jEditorPane}. */
-  protected final JBScrollPane scrollPane = new JBScrollPane(jEditorPane);
-
+   private final VirtualFile myFile;
+    private final MyGUI myEditor;
   /** . */
 //  private FutureTask<Asciidoc> asciidoc = new FutureTask<Asciidoc>(new Callable<Asciidoc>() {
 //    public Asciidoc call() throws Exception {
@@ -55,41 +52,15 @@ public class MyEditor extends UserDataHolderBase implements FileEditor {
 //    }
 //  });
 
-  public MyEditor(Project project, VirtualFile document) {
+  public MyEditor(Project project, VirtualFile file) {
 
-//    // Get asciidoc asynchronously
-//    new Thread() {
-//      @Override
-//      public void run() {
-//        asciidoc.run();
-//      }
-//    }.start();
-//
-//    //
-//    this.document = document;
-//
-//    // Listen to the document modifications.
-//    this.document.addDocumentListener(new DocumentAdapter() {
-//      @Override
-//      public void documentChanged(DocumentEvent e) {
-//        previewIsObsolete = true;
-//      }
-//    });
-//
-//    // Setup the editor pane for rendering HTML.
-//    final HTMLEditorKit kit = new AsciidocEditorKit(document);
-//
-//    //
-//    URL previewURL = MyEditor.class.getResource("preview.css");
-//    if (previewURL != null) {
-//      final StyleSheet style = new StyleSheet();
-//      style.importStyleSheet(previewURL);
-//      kit.setStyleSheet(style);
-//    }
-
-    //
-   // jEditorPane.setEditorKit(kit);
-    //jEditorPane.setEditable(false);
+    final VirtualFile vf = file instanceof LightVirtualFile ? ((LightVirtualFile)file).getOriginalFile() : file;
+    final Module module = ModuleUtil.findModuleForFile(vf, project);
+    if (module == null) {
+      throw new IllegalArgumentException("No module for file " + file + " in project " + project);
+    }
+    myFile = file;
+    myEditor = new MyGUI();
   }
 
   /**
@@ -98,17 +69,16 @@ public class MyEditor extends UserDataHolderBase implements FileEditor {
    */
   @NotNull
   public JComponent getComponent() {
-    return scrollPane;
+    return myEditor;
   }
 
   /**
    * Get the component to be focused when the editor is opened.
    *
-   * @return {@link #jEditorPane}
    */
   @Nullable
   public JComponent getPreferredFocusedComponent() {
-    return scrollPane;
+    return myEditor;
   }
 
   /**

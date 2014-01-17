@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fce515a7-b880-433e-9ff6-be700fa790e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyGUI.java" />
-      <change type="DELETED" beforePath="C:\Users\izha002\Downloads\idea-asciidoc-master\src\vietj\intellij\asciidoc\Asciidoc.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\izha002\Downloads\idea-asciidoc-master\src\vietj\intellij\asciidoc\AsciidocIcons.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\izha002\Downloads\idea-asciidoc-master\src\vietj\intellij\asciidoc\editor\AsciidocEditorKit.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\izha002\Downloads\idea-asciidoc-master\src\vietj\intellij\asciidoc\editor\AsciidocPreviewEditor.java" afterPath="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditor.java" />
-      <change type="MOVED" beforePath="C:\Users\izha002\Downloads\idea-asciidoc-master\src\vietj\intellij\asciidoc\editor\AsciidocPreviewEditorProvider.java" afterPath="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditorProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/META-INF/plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditor.java" afterPath="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AsciidocPlugin.iws" />
@@ -102,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyEditorProvider.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MyEditorProvider.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditorProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="71" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.35876623" vertical-offset="17" max-vertical-offset="1802">
+            <state line="28" column="71" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.0" vertical-offset="161" max-vertical-offset="1802">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,10 +115,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyEditor.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MyEditor.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="13" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="4063">
+            <state line="41" column="0" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.7886598" vertical-offset="0" max-vertical-offset="3553">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,12 +193,13 @@
         <option value="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/AsciidocPreviewEditorProvider.java" />
         <option value="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/AsciidocPreviewEditor.java" />
         <option value="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditorProvider.java" />
+        <option value="$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditor.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="204" />
-    <option name="y" value="58" />
+    <option name="x" value="152" />
+    <option name="y" value="80" />
     <option name="width" value="1471" />
     <option name="height" value="934" />
   </component>
@@ -581,10 +575,15 @@
       <created>1374656178522</created>
       <updated>1374656178522</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit&#10;">
+      <created>1389927389384</created>
+      <updated>1389927389384</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="204" y="58" width="1471" height="934" extended-state="0" />
+    <frame x="152" y="80" width="1471" height="934" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -592,7 +591,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19927536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25483093" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5012077" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -605,7 +604,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25154638" sideWeight="0.67076164" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24033816" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24033816" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -626,6 +625,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Initial commit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -894,18 +895,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditor.java">
+    <entry file="file://$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditorProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="13" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="4063">
+        <state line="28" column="71" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.0" vertical-offset="161" max-vertical-offset="1802">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditorProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/vietj/intellij/asciidoc/editor/MyEditor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="71" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.35876623" vertical-offset="17" max-vertical-offset="1802">
+        <state line="41" column="0" selection-start="1658" selection-end="1658" vertical-scroll-proportion="0.7886598" vertical-offset="0" max-vertical-offset="3553">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
