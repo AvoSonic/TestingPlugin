@@ -1,10 +1,5 @@
-= Asciidoc Intellij Plugin
+= Experimental Intellij Plugin
 
 Based on the https://github.com/nicoulaj/idea-markdown[Markdown Intellij plugin by Julien Nicoulaud]
 
-== Status
-
-Alpha but usable in Intellij:
-
-* Asciidoc file type
-* Asciidoc preview editor
+Not my code! Just experimenting with basic plugin development :)
